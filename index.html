@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>MERN</title>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/css/reveal.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h2>Fullstack MERN App</h1>
+          <h4>Pasos</h3>
+          <ol>
+            <li><a href="#/concepto">Concepto</a></li>
+            <li><a href="#/ux">UX</a></li>
+            <li><a href="#/diseno">Diseño</a></li>
+            <li><a href="#/desarrollo">Desarrollo</a></li>
+            <li><a href="#/deploy">Deploy</a></li>
+          </ol>
+        </section>
+        <section>
+          <section id="concepto">
+            <h1>Concepto</h1>
+            <ul>
+              <li>
+                Apps parecidas
+                <ul>
+                  <li>Ventajas / Aciertos</li>
+                  <li>Desventajas / Oportunidades</li>
+                </ul>
+              </li>
+              <li>Público objetivo</li>
+              <li>Estrategia y Estructura</li>
+              <li>Contenidos</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section id="ux">
+            <h1>UX</h1>
+          </section>
+          <section>
+            <p>el objetivo es desarrollar material para facilitar el diseño, desarrollo y evaluación de las funcionalidades</p>
+          </section>
+          <section>
+            <a href="https://ralexrdz.github.io/ux-slides/" target="_blank">UX slides</a>
+          </section>
+          <section>
+            <h4>Pasos</h4>
+            <ul>
+              <li>
+                  Generación de Historias de Usuario
+                  <ul>
+                    <li>issues en github para <a href="https://help.github.com/articles/about-project-boards/" target="_blank">Github Project Board</a></li>
+                    <li>Tarjetas de <a href="https://trello.com" target="_blank">Trello</a></li>
+                  </ul>
+              </li>
+              <li>
+                Identificar campos a guardar en Base de datos
+                <ul>
+                  <li>Ayuda a generar Arquitectura de información: IA</li>
+                </ul>
+              </li>
+              <li>
+                Identificar datos a mostrar
+                <ul>
+                  <li>Ayuda a generar Wireframes</li>
+                </ul>
+              </li>
+              <li>
+                Identificar puntos y flujos de interacción 
+                <ul>
+                  <li>Ayuda a definir el Diseño de Interacción: IxD</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section id="diseno">
+            <h1>Diseño</h1>
+            <ul>
+              <li>
+                  Arquitectura de información
+                  <ul>
+                    <li>
+                      Entidades
+                      <ul>
+                        <li>Campos</li>
+                        <li>Tipo de datos</li>
+                        <li>Restricciones</li>
+                      </ul>
+                    </li>
+                    <li>
+                      Relaciones
+                      <ul>
+                        <li>Cómo se conectan por referencia las entidades</li>
+                      </ul>
+                    </li>
+                  </ul>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <ul>
+                <li>
+                    Wireframes
+                    <ol>
+                      <li>Baja Calidad (pizarrón, servilleta)</li>
+                      <li>Alta Calidad (Digital)</li>
+                    </ol>
+                  </li>
+                  <li>Diseño Web</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section id="desarrollo">
+            <h1>Desarrollo</h1>
+            <ul>
+              <li>Base de datos: MongoDb</li>
+              <li>Backend: Node-Express-Mongoose</li>
+              <li>FrontEnd: React</li>
+            </ul>
+          </section>
+          <section>
+            <h3>MongoDb</h3>
+            <a href="https://www.mongodb.com/cloud/atlas" target="_blank">Mongo Atlas (Cloud)</a>
+            <a href="https://github.com/ralexrdz/node-intro" target="_blank">repo Mongo intro</a>
+          </section>
+          <section>
+            <h3>Backend</h3>
+            <ul>
+              <li><a href="https://github.com/ralexrdz/node-intro" target="_blank">repo Node intro</a></li>
+              <li><a href="https://github.com/ralexrdz/express-intro" target="_blank">repo Express intro</a></li>
+              <li><a href="https://ralexrdz.github.io/mongoose-intro/" target="_blank">slides Mongoose intro</a></li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section id="deploy">
+            <h1>Deploy</h1>
+            <a href="https://github.com/ralexrdz/deploy-tips" target="_blank">Tips</a>
+          </section>
+        </section>
+        <section>
+          <h3>Extras</h3>
+          <ul>
+            <li>Manejo Imagenes: <a href="https://cloudinary.com/">Cloudinary</a></li>
+            <li>Manejo Notificaciones: <a href="http://pusher.com/">Pusher</a></li>
+            <li>Calendario: <a href="https://github.com/nhnent/tui.calendar">Tui Calendar</a></li>
+            <li>Mapas: <a href="https://mapbox.com">Mapbox</a></li>
+          </ul>
+        </section>
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/lib/js/head.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/js/reveal.min.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				transition: 'zoom',
+				dependencies: [
+					{ src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/plugin/markdown/marked.js' },
+					{ src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/plugin/markdown/markdown.js' },
+					{ src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/plugin/notes/notes.js', async: true },
+					{ src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
